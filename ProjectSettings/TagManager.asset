@@ -7,6 +7,8 @@ TagManager:
   - Platform
   - RunDustParticle
   - JumpDustParticle
+  - Enemy
+  - Border
   layers:
   - Default
   - TransparentFX
