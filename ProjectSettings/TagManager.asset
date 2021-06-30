@@ -9,6 +9,7 @@ TagManager:
   - JumpDustParticle
   - Enemy
   - Border
+  - SoundManager
   layers:
   - Default
   - TransparentFX
