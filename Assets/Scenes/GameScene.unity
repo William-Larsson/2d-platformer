@@ -11768,7 +11768,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"ObjectToSpawn","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"MaxX","value":{"$content":20.0,"$type":"System.Single"},"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"MinX","value":{"$content":15.0,"$type":"System.Single"},"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"MaxY","value":{"$content":1.9,"$type":"System.Single"},"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"MinY","value":{"$content":-1.7,"$type":"System.Single"},"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"TimeBetweenSpawn","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"ObjectToSpawn","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MaxX","value":{"$content":20.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MinX","value":{"$content":15.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MaxY","value":{"$content":1.9,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MinY","value":{"$content":-1.7,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TimeBetweenSpawn","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8727056322441757826, guid: 1d49610d0c19587e2adf9d2ec6a11f26, type: 3}
 --- !u!4 &2024409818
