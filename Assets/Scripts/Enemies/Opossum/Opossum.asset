@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530e556d4407947dcae7102ff497587d, type: 3}
+  m_Name: Opossum
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"title":"Opossum","summary":null,"pan":{"x":-1.0,"y":15.0},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Start","summary":null,"pan":{"x":191.0,"y":186.0},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Tag":{"$content":"Player","$type":"System.String"}},"position":{"x":-175.0,"y":315.0},"guid":"89f0f50e-777b-47d0-b6ef-22ab1536e7af","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"13"},{"argumentCount":1,"defaultValues":{"name":{"$content":"Damage","$type":"System.String"},"target":null},"position":{"x":79.0,"y":314.0},"guid":"aa54eb22-28d0-4f43-84d7-9cdc12a72fdb","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"16"},{"coroutine":false,"defaultValues":{},"position":{"x":-201.0,"y":148.0},"guid":"c38607a7-bde8-45e7-b6c6-0227a433c4ba","$version":"A","$type":"Unity.VisualScripting.FixedUpdate","$id":"18"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Damage","$type":"System.String"},"object":null},"position":{"x":-141.0,"y":454.0},"guid":"8c5c513f-57dc-4625-8a3a-02c9dddcd461","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"20"},{"nest":{"source":"Macro","macro":1,"embed":null},"defaultValues":{},"position":{"x":107.0,"y":147.0},"guid":"86007b3a-7cf7-4d33-90dc-98b65d950e17","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"22"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Enter","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"dab6b376-6e67-4290-aa26-64d26febe0f5","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"trigger","destinationUnit":{"$ref":"22"},"destinationKey":"Input","guid":"71f810f4-9dec-445a-89dc-74bb5df3d38e","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Object","destinationUnit":{"$ref":"16"},"destinationKey":"target","guid":"586f5da5-a79f-4c1d-9300-205d535456f3","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"argument_0","guid":"d3d72cff-ecd7-40c5-b1f9-828e5a15b376","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-208.0,"yMin":267.0,"xMax":247.0,"yMax":580.0},"label":"Damage
+      player","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"26f5ef9d-f5d5-438b-85dc-54312c1a9329","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}},"isStart":true,"position":{"x":-86.0,"y":-16.0},"width":170.0,"guid":"c30a12c4-c446-457c-a711-26063a00cb1d","$version":"A","$type":"Unity.VisualScripting.FlowState"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 56e8df389097df03ead3636ce73c6e32, type: 2}
+    - {fileID: 11400000, guid: c63b7c7ce543a16049fe23aa4c49e7e6, type: 2}
